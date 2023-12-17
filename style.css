@@ -1,0 +1,116 @@
+.container{
+    width: 1200px;
+    margin: auto;
+    font-family: 'DM Sans', sans-serif;
+}
+.banner-wap{
+    display: flex;
+}
+.left-wap{
+    padding-top: 90px;
+    flex-basis: 50%;
+}
+.rigth-wap{
+   
+    flex-basis: 50%;
+}
+#about{
+    height: 600px;
+}
+.about-wap{
+    display: flex;
+}
+.about-left{
+    flex-basis: 50%;
+    padding-top: 40px;
+}
+.about-rigth{
+    flex-basis: 50%;
+    padding-top: 40px;
+}
+.about-rigth h2{
+    font-size: 38px;
+}
+.about-rigth p{
+    font-size: 32px;
+    text-align: justify;
+}
+#service{
+    height: 600px;
+    width: 1200px;
+    background-color: rgba(155, 155, 155, 0.149);
+    margin: 0 auto;
+
+}
+.service-title h2{
+    padding-top: 20px;
+    font-size: 38px;
+    text-align: center;
+}
+
+.service-title p{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 32px;
+    text-align: center;
+}
+.service-con{
+    display: flex;
+    gap: 20px;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.service-cont{
+    flex-basis: 25%;
+    justify-content: space-around;
+    text-align: justify;
+    width: 100px;
+    height: 300px;
+    margin:0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: aquamarine;
+}
+.service-cont a{
+    border: 60px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin: 60px;
+    padding: 10px;
+    background-color: aqua;
+}
+
+#head{
+    background-color: white;
+    padding: 14px 0;
+}
+h1{
+    font-size: 24px;
+}
+#banner{
+    background-color: rgba(155, 155, 155, 0.149);
+    height: 400px;
+}
+.rigth-wap{
+    text-align: center;
+}
+#banner img{
+    max-width: 90%;
+}
+.h2{
+    font-size: 32px;
+}
+.banner-wap p{
+    font-size: 24px;
+}
+.banner-wap a{
+    background-color: aqua;
+    padding: 16px;
+    font-size: 20px;
+    display: inline-block;
+}
+#about img{
+    max-width: 80%;
+}
